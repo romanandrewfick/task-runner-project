@@ -1,0 +1,62 @@
+/*Options*/
+
+$Montserrat: 'Montserrat', sans-serif;
+$Dancing: 'Dancing Script', cursive;
+$Cinzel: 'Cinzel', serif;
+$Satisfy: 'Satisfy', cursive;
+
+
+/*General */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+/* Splash */
+
+.splash {
+  min-height: 500px;
+  display: flex;
+}
+
+.splash-inner {
+  margin: auto;
+  color: brown;
+}
+
+.splash-inner h1 {
+    margin: 0;
+    font-size: 60px;
+    text-align: center;
+    font-family: $Cinzel;
+    font-weight: bold;
+}
+
+.splash-inner h2 {
+    max-width: 100%;
+    font-size: 35px;
+    text-align: center;
+    font-family: $Montserrat;
+}
+
+.btn {
+    display: inline-block;
+    min-width: 160px;
+    margin: 50px 0 0 230px;
+    padding: 16px;
+    font-family: 'Cinzel', serif;
+    font-size: 26px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-width: 0px;
+    border-style: solid;
+    background-color: #f6b93b;
+}
+
+.btn-one {
+    border-color: none;
+    color: white;
+    font-family: $Montserrat;
+}
